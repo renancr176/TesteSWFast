@@ -1,0 +1,9 @@
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters\bin\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters.deps.json
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters\bin\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters.dll
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters.csprojAssemblyReference.cache
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters.csproj.CoreCompileInputs.cache
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters.AssemblyInfoInputs.cache
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters.AssemblyInfo.cs
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters\bin\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters.pdb
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters.dll
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters.pdb

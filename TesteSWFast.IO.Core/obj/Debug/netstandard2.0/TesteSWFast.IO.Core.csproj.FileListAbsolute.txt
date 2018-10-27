@@ -1,0 +1,9 @@
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Core\bin\Debug\netstandard2.0\TesteSWFast.IO.Core.deps.json
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Core\bin\Debug\netstandard2.0\TesteSWFast.IO.Core.dll
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Core\obj\Debug\netstandard2.0\TesteSWFast.IO.Core.csprojAssemblyReference.cache
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Core\obj\Debug\netstandard2.0\TesteSWFast.IO.Core.csproj.CoreCompileInputs.cache
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Core\obj\Debug\netstandard2.0\TesteSWFast.IO.Core.AssemblyInfoInputs.cache
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Core\obj\Debug\netstandard2.0\TesteSWFast.IO.Core.AssemblyInfo.cs
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Core\bin\Debug\netstandard2.0\TesteSWFast.IO.Core.pdb
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Core\obj\Debug\netstandard2.0\TesteSWFast.IO.Core.dll
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Core\obj\Debug\netstandard2.0\TesteSWFast.IO.Core.pdb

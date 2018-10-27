@@ -1,0 +1,12 @@
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.Bus\bin\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.Bus.deps.json
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.Bus\bin\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.Bus.dll
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.Bus\bin\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.Bus.pdb
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.Bus\bin\Debug\netstandard2.0\TesteSWFast.IO.Core.dll
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.Bus\bin\Debug\netstandard2.0\TesteSWFast.IO.Core.pdb
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.Bus.csprojAssemblyReference.cache
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.Bus.csproj.CoreCompileInputs.cache
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.Bus.AssemblyInfoInputs.cache
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.Bus.AssemblyInfo.cs
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.Bus.csproj.CopyComplete
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.Bus.dll
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Infra.CrossCutting.Bus\obj\Debug\netstandard2.0\TesteSWFast.IO.Infra.CrossCutting.Bus.pdb

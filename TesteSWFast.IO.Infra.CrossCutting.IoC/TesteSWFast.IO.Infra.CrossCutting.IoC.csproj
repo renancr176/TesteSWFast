@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="7.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="2.1.1" />
+    <PackageReference Include="Microsoft.Extensions.Logging" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\TesteSWFast.IO.Domain\TesteSWFast.IO.Domain.csproj" />
+    <ProjectReference Include="..\TesteSWFast.IO.Core\TesteSWFast.IO.Core.csproj" />
+    <ProjectReference Include="..\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters.csproj" />
+    <ProjectReference Include="..\TesteSWFast.IO.Infra.CrossCutting.Bus\TesteSWFast.IO.Infra.CrossCutting.Bus.csproj" />
+    <ProjectReference Include="..\TesteSWFast.IO.Infra.CrossCutting.Identity\TesteSWFast.IO.Infra.CrossCutting.Identity.csproj" />
+    <ProjectReference Include="..\TesteSWFast.IO.Infra.Data\TesteSWFast.IO.Infra.Data.csproj" />
+  </ItemGroup>
+
+</Project>
