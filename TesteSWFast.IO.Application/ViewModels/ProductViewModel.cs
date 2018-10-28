@@ -11,7 +11,7 @@ namespace TesteSWFast.IO.Application.ViewModels
         //[ForeignKey("CategoryViewModel.Id")]
         [Required(ErrorMessage = "A categoria do produto é requerida.")]
         [Display(Name = "Categoria")]
-        public Guid IdCategory { get; set; }
+        public Guid IdCategoria { get; set; }
 
         [Required(ErrorMessage = "O nome do produto é querido.")]
         [Display(Name = "Nome do produto")]

@@ -12,7 +12,7 @@ namespace TesteSWFast.IO.Infra.Data.Mappings
             builder.Property(c => c.Id)
                 .IsRequired();
 
-            builder.Property(c => c.IdCategory)
+            builder.Property(c => c.IdCategoria)
                 .HasColumnName("IdCategoria")
                 .IsRequired();
 
@@ -26,7 +26,7 @@ namespace TesteSWFast.IO.Infra.Data.Mappings
 
             builder.HasOne(p => p.Category)
                 .WithMany(c => c.Products)
-                .HasForeignKey(p => p.IdCategory)
+                .HasForeignKey(p => p.IdCategoria)
                 .IsRequired();
 
             builder.Ignore(c => c.ValidationResult);

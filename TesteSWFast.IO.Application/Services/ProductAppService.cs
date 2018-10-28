@@ -34,7 +34,7 @@ namespace TesteSWFast.IO.Application.Services
 
         public IEnumerable<ProductViewModel> GetProductByCategory(Guid idCategory)
         {
-            return _mapper.Map<IEnumerable<ProductViewModel>>(_productRepository.Find(c => c.IdCategory.Equals(idCategory)));
+            return _mapper.Map<IEnumerable<ProductViewModel>>(_productRepository.Find(c => c.IdCategoria.Equals(idCategory)));
         }
 
         public void Insert(ProductViewModel productViewModel)

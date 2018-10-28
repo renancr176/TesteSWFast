@@ -15,12 +15,14 @@ namespace TesteSWFast.IO.Site.Controllers
         }
 
         // GET: Category
+        [Route("categoria")]
         public IActionResult Index()
         {
             return View(_categoryAppService.GetAll());
         }
 
         // GET: Category/Details/5
+        [Route("categoria/detalhes/{id:Guid}")]
         public IActionResult Details(Guid? id)
         {
             if (id == null)
@@ -38,6 +40,7 @@ namespace TesteSWFast.IO.Site.Controllers
         }
 
         // GET: Category/Create
+        [Route("categoria/inserir")]
         public IActionResult Create()
         {
             return View();
@@ -48,16 +51,18 @@ namespace TesteSWFast.IO.Site.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("categoria/inserir")]
         public IActionResult Create(CategoryViewModel categoryViewModel)
         {
             if (!ModelState.IsValid) return View(categoryViewModel);
 
             _categoryAppService.Insert(categoryViewModel);
 
-            return View(categoryViewModel);
+            return RedirectToAction("Index");
         }
 
         // GET: Category/Edit/5
+        [Route("categoria/alterar/{id:Guid}")]
         public IActionResult Edit(Guid? id)
         {
             if (id == null)
@@ -79,6 +84,7 @@ namespace TesteSWFast.IO.Site.Controllers
         // more details see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
+        [Route("categoria/alterar/{id:Guid}")]
         public IActionResult Edit(CategoryViewModel categoryViewModel)
         {
 
@@ -86,10 +92,11 @@ namespace TesteSWFast.IO.Site.Controllers
 
             _categoryAppService.Update(categoryViewModel);
 
-            return View(categoryViewModel);
+            return RedirectToAction("Index");
         }
 
         // GET: Category/Delete/5
+        [Route("categoria/excluir/{id:Guid}")]
         public IActionResult Delete(Guid? id)
         {
             if (id == null)
@@ -109,6 +116,7 @@ namespace TesteSWFast.IO.Site.Controllers
         // POST: Category/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
+        [Route("categoria/excluir/{id:Guid}")]
         public IActionResult DeleteConfirmed(Guid id)
         {
             _categoryAppService.Delete(id);

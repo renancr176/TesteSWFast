@@ -25,12 +25,12 @@ namespace TesteSWFast.IO.Infra.Data.Repository
         public override Category GetById(Guid id)
         {
             var sql = "SELECT * " +
-                      "FROM dbo.Categoria AS c " +
+                      "FROM dbo.Categorias AS c " +
                       "WHERE c.Id = @Id";
 
-            var gallery = Db.Database.GetDbConnection().Query<Category>(sql, new { Id = id });
+            var category = Db.Database.GetDbConnection().Query<Category>(sql, new { Id = id });
 
-            return gallery.FirstOrDefault();
+            return category.FirstOrDefault();
         }
     }
 }

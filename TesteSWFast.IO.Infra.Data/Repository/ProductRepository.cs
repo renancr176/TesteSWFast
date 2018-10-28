@@ -19,11 +19,11 @@ namespace TesteSWFast.IO.Infra.Data.Repository
         {
             var sql = "SELECT * " +
                       "FROM dbo.Produtos AS p " +
-                      "WHERE c.Id = @Id";
+                      "WHERE p.Id = @Id";
 
-            var gallery = Db.Database.GetDbConnection().Query<Product>(sql, new { Id = id });
+            var product = Db.Database.GetDbConnection().Query<Product>(sql, new { Id = id });
 
-            return gallery.FirstOrDefault();
+            return product.FirstOrDefault();
         }
 
         public override IEnumerable<Product> GetAll()

@@ -20,9 +20,9 @@ namespace TesteSWFast.IO.Application.AutoMapper
 
             #region Product
             CreateMap<ProductViewModel, ProductInsertCommand>()
-                .ConstructUsing(p => new ProductInsertCommand(p.Id, p.IdCategory, p.Nome, p.Preco));
+                .ConstructUsing(p => new ProductInsertCommand(p.Id, p.IdCategoria, p.Nome, p.Preco));
             CreateMap<ProductViewModel, ProductUpdateCommand>()
-                .ConstructUsing(p => new ProductUpdateCommand(p.Id, p.IdCategory, p.Nome, p.Preco));
+                .ConstructUsing(p => new ProductUpdateCommand(p.Id, p.IdCategoria, p.Nome, p.Preco));
             CreateMap<ProductViewModel, ProductDeleteCommand>()
                 .ConstructUsing(p => new ProductDeleteCommand(p.Id));
             #endregion

@@ -1,4 +1,6 @@
-﻿@model IEnumerable<TesteSWFast.IO.Application.ViewModels.ProductViewModel>
+﻿@using TesteSWFast.IO.Application.ViewModels
+@using TesteSWFast.IO.Domain.Categories
+@model IEnumerable<TesteSWFast.IO.Application.ViewModels.ProductViewModel>
 
 @{
     ViewData["Title"] = "Index";
@@ -13,7 +15,7 @@
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.IdCategory)
+                @Html.DisplayNameFor(model => model.IdCategoria)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Nome)
@@ -28,7 +30,11 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @Html.DisplayFor(modelItem => item.IdCategory)
+                @{
+                    var categorias = (List<CategoryViewModel>)ViewBag.Categorias;
+                    var descricaoCategoria = categorias.Where(c => c.Id.Equals(item.IdCategoria)).FirstOrDefault().Nome;
+                }
+                @descricaoCategoria
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)
