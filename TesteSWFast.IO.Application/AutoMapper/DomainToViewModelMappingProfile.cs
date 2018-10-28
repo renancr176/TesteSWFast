@@ -1,7 +1,7 @@
 ﻿using AutoMapper;
 using TesteSWFast.IO.Application.ViewModels;
 using TesteSWFast.IO.Domain.Categories;
-using TesteSWFast.IO.Domain.Products;
+using TesteSWFast.IO.Domain.Products.Queries;
 
 namespace TesteSWFast.IO.Application.AutoMapper
 {
@@ -10,7 +10,7 @@ namespace TesteSWFast.IO.Application.AutoMapper
         public DomainToViewModelMappingProfile()
         {
             CreateMap<Category, CategoryViewModel>();
-            CreateMap<Product, ProductViewModel>();
+            CreateMap<ProductQuery, ProductViewModel>();
         }
     }
 }

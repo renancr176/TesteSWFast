@@ -84,7 +84,7 @@ using TesteSWFast.IO.Site.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(351, 57, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dcf66be1c4e94e08a8e6435c82c757af", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "99b85cd82d5c4cd0bb9e67c67b30b3f0", async() => {
                 BeginContext(397, 7, true);
                 WriteLiteral("Alterar");
                 EndContext();
@@ -119,7 +119,7 @@ using TesteSWFast.IO.Site.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(416, 32, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "94bef755f84e41f998ae2a7fa96f369a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "34faaed8f3d149a0a04b728022d1152d", async() => {
                 BeginContext(438, 6, true);
                 WriteLiteral("Voltar");
                 EndContext();

@@ -30,11 +30,7 @@
 @foreach (var item in Model) {
         <tr>
             <td>
-                @{
-                    var categorias = (List<CategoryViewModel>)ViewBag.Categorias;
-                    var descricaoCategoria = categorias.Where(c => c.Id.Equals(item.IdCategoria)).FirstOrDefault().Nome;
-                }
-                @descricaoCategoria
+                @Html.DisplayFor(modelItem => item.NomeCategoria)
             </td>
             <td>
                 @Html.DisplayFor(modelItem => item.Nome)

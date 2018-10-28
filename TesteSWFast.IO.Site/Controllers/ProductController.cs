@@ -21,7 +21,6 @@ namespace TesteSWFast.IO.Site.Controllers
         [Route("produto")]
         public IActionResult Index()
         {
-            ViewBag.Categorias = _categoryAppService.GetAll();
             return View(_productAppService.GetAll());
         }
 

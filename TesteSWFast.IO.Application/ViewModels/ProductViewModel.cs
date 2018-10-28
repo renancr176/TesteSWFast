@@ -24,12 +24,11 @@ namespace TesteSWFast.IO.Application.ViewModels
         [DisplayFormat(DataFormatString = "{0:C}")]
         public decimal Preco { get; set; }
 
-        public CategoryViewModel Category { get; set; }
+        public String NomeCategoria { get; set; }
 
         public ProductViewModel()
         {
             Id = Guid.NewGuid();
-            Category = new CategoryViewModel();
         }
     }
 }
