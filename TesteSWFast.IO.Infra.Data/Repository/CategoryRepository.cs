@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using Dapper;
 using Microsoft.EntityFrameworkCore;
-using TesteSWFast.IO.Domain.Products;
-using TesteSWFast.IO.Domain.Products.Repository;
+using TesteSWFast.IO.Domain.Categories;
+using TesteSWFast.IO.Domain.Categories.Repository;
 using TesteSWFast.IO.Infra.Data.Context;
 
 namespace TesteSWFast.IO.Infra.Data.Repository

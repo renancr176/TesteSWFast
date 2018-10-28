@@ -14,14 +14,7 @@ namespace TesteSWFast.IO.Infra.Data.Repository
         public ProductRepository(ApplicationContext context) : base(context)
         {
         }
-
-        public override IEnumerable<Product> GetAll()
-        {
-            var sql = "SELECT * FROM dbo.Produtos";
-
-            return Db.Database.GetDbConnection().Query<Product>(sql);
-        }
-
+        
         public override Product GetById(Guid id)
         {
             var sql = "SELECT * " +
@@ -31,6 +24,13 @@ namespace TesteSWFast.IO.Infra.Data.Repository
             var gallery = Db.Database.GetDbConnection().Query<Product>(sql, new { Id = id });
 
             return gallery.FirstOrDefault();
+        }
+
+        public override IEnumerable<Product> GetAll()
+        {
+            var sql = "SELECT * FROM dbo.Produtos";
+
+            return Db.Database.GetDbConnection().Query<Product>(sql);
         }
     }
 }

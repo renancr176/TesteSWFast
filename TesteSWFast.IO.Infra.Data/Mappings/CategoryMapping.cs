@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using TesteSWFast.IO.Domain.Products;
+using TesteSWFast.IO.Domain.Categories;
 using TesteSWFast.IO.Infra.Data.Extensions;
 
 namespace TesteSWFast.IO.Infra.Data.Mappings

@@ -7,3 +7,8 @@ C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Application\obj\Deb
 C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Application\bin\Debug\netstandard2.0\TesteSWFast.IO.Application.pdb
 C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Application\obj\Debug\netstandard2.0\TesteSWFast.IO.Application.dll
 C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Application\obj\Debug\netstandard2.0\TesteSWFast.IO.Application.pdb
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Application\bin\Debug\netstandard2.0\TesteSWFast.IO.Core.dll
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Application\bin\Debug\netstandard2.0\TesteSWFast.IO.Domain.dll
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Application\bin\Debug\netstandard2.0\TesteSWFast.IO.Domain.pdb
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Application\bin\Debug\netstandard2.0\TesteSWFast.IO.Core.pdb
+C:\Users\RenanPC\Documents\GitHub\TesteSWFast\TesteSWFast.IO.Application\obj\Debug\netstandard2.0\TesteSWFast.IO.Application.csproj.CopyComplete
