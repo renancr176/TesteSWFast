@@ -1,14 +1,10 @@
 ﻿@model TesteSWFast.IO.Application.ViewModels.CategoryViewModel
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Detalhar";
 }
-
-<h2>Details</h2>
-
+<br />
 <div>
-    <h4>CategoryViewModel</h4>
-    <hr />
     <dl class="dl-horizontal">
         <dt>
             @Html.DisplayNameFor(model => model.Nome)
@@ -19,6 +15,6 @@
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.Id">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model.Id">Alterar</a> |
+    <a asp-action="Index">Voltar</a>
 </div>
