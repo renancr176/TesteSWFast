@@ -9,7 +9,7 @@ using TesteSWFast.IO.Infra.Data.Context;
 
 namespace TesteSWFast.IO.Infra.Data.Repository
 {
-    class ProductRepository : Repository<Product>, IProductRepository
+    public class ProductRepository : Repository<Product>, IProductRepository
     {
         public ProductRepository(ApplicationContext context) : base(context)
         {

@@ -10,6 +10,7 @@ using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 
+
 namespace TesteSWFast.IO.Infra.CrossCutting.AspNetFilters
 {
     public class GlobalActionLogger : IActionFilter
@@ -47,7 +48,7 @@ namespace TesteSWFast.IO.Infra.CrossCutting.AspNetFilters
                 var message = new CreateMessage
                 {
                     Version = "v1.0",
-                    Application = "TesteSWFast.IO",
+                    Application = "Eventos.IO",
                     Source = "GlobalActionLoggerFilter",
                     User = context.HttpContext.User.Identity.Name,
                     Hostname = context.HttpContext.Request.Host.Host,

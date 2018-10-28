@@ -11,7 +11,7 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-TesteSWFast.IO.Site-7A555022-C4E0-435A-B55B-5909D807FD17")]
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("aspnet-TesteSWFast.IO.Site-8E8C3BE2-968B-4591-B15A-F066A97A4BFC")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.
 
