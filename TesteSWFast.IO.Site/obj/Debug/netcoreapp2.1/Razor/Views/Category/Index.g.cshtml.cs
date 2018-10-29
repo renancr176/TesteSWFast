@@ -66,7 +66,7 @@ using TesteSWFast.IO.Site.Models;
             WriteLiteral("\r\n<h2>Categorias</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(159, 41, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "01a6f87fd6294b998dcfbfe8a99ce2af", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "28eaac28450647f7ba823fc0ba95ba35", async() => {
                 BeginContext(182, 14, true);
                 WriteLiteral("Nova categoria");
                 EndContext();
@@ -116,7 +116,7 @@ using TesteSWFast.IO.Site.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(594, 56, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a8c1cb3b45824c4aa1907b78d5cb39a9", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bef58901793444d8ab7ec8515224428f", async() => {
                 BeginContext(639, 7, true);
                 WriteLiteral("Alterar");
                 EndContext();
@@ -151,7 +151,7 @@ using TesteSWFast.IO.Site.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(670, 60, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ba6bbcde340c4b9494393fa1a0978615", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2b8e18320b1c4dc39e0f597e5d530083", async() => {
                 BeginContext(718, 8, true);
                 WriteLiteral("Detalhar");
                 EndContext();
@@ -186,7 +186,7 @@ using TesteSWFast.IO.Site.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(750, 58, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "199428bd0fbc4140957363ab496f399c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "046d71a7e455462691295028c5bc5a32", async() => {
                 BeginContext(797, 7, true);
                 WriteLiteral("Excluir");
                 EndContext();

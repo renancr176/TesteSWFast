@@ -12962,8 +12962,8 @@
     },
     "TesteSWFast.IO.Domain/1.0.0": {
       "type": "project",
-      "path": "../../TesteSWFast.IO.Domain/TesteSWFast.IO.Domain.csproj",
-      "msbuildProject": "../../TesteSWFast.IO.Domain/TesteSWFast.IO.Domain.csproj"
+      "path": "../TesteSWFast.IO.Domain/TesteSWFast.IO.Domain.csproj",
+      "msbuildProject": "../TesteSWFast.IO.Domain/TesteSWFast.IO.Domain.csproj"
     },
     "TesteSWFast.IO.Infra.CrossCutting.AspNetFilters/1.0.0": {
       "type": "project",

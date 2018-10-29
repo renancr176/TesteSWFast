@@ -9,7 +9,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\TesteSWFast.IO.Domain\TesteSWFast.IO.Domain.csproj" />
+    <ProjectReference Include="..\TesteSWFast.IO.Domain\TesteSWFast.IO.Domain.csproj" />
     <ProjectReference Include="..\TesteSWFast.IO.Application\TesteSWFast.IO.Application.csproj" />
     <ProjectReference Include="..\TesteSWFast.IO.Core\TesteSWFast.IO.Core.csproj" />
     <ProjectReference Include="..\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters\TesteSWFast.IO.Infra.CrossCutting.AspNetFilters.csproj" />

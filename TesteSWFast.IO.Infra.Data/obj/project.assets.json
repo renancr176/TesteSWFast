@@ -3843,8 +3843,8 @@
     },
     "TesteSWFast.IO.Domain/1.0.0": {
       "type": "project",
-      "path": "../../TesteSWFast.IO.Domain/TesteSWFast.IO.Domain.csproj",
-      "msbuildProject": "../../TesteSWFast.IO.Domain/TesteSWFast.IO.Domain.csproj"
+      "path": "../TesteSWFast.IO.Domain/TesteSWFast.IO.Domain.csproj",
+      "msbuildProject": "../TesteSWFast.IO.Domain/TesteSWFast.IO.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -3893,11 +3893,11 @@
       "frameworks": {
         "netstandard2.0": {
           "projectReferences": {
-            "C:\\Users\\RenanPC\\Documents\\GitHub\\TesteSWFast.IO.Domain\\TesteSWFast.IO.Domain.csproj": {
-              "projectPath": "C:\\Users\\RenanPC\\Documents\\GitHub\\TesteSWFast.IO.Domain\\TesteSWFast.IO.Domain.csproj"
-            },
             "C:\\Users\\RenanPC\\Documents\\GitHub\\TesteSWFast\\TesteSWFast.IO.Core\\TesteSWFast.IO.Core.csproj": {
               "projectPath": "C:\\Users\\RenanPC\\Documents\\GitHub\\TesteSWFast\\TesteSWFast.IO.Core\\TesteSWFast.IO.Core.csproj"
+            },
+            "C:\\Users\\RenanPC\\Documents\\GitHub\\TesteSWFast\\TesteSWFast.IO.Domain\\TesteSWFast.IO.Domain.csproj": {
+              "projectPath": "C:\\Users\\RenanPC\\Documents\\GitHub\\TesteSWFast\\TesteSWFast.IO.Domain\\TesteSWFast.IO.Domain.csproj"
             }
           }
         }
